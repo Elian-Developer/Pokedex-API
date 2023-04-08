@@ -1,7 +1,12 @@
 import React from 'react';
+import { DotWave } from '@uiball/loaders';
 
 export const Loader = () => {
   return (
-    <div>Loader</div>
-  )
+    <div className='container-loader'>
+        <DotWave size={47} speed={1} color='black' />; 
+    </div>
+  ) 
+  
 };
+

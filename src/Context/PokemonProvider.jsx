@@ -67,12 +67,17 @@ export const PokemonProvider = ({ children }) => {
     //This useEffect call first 100 pokemon function 
     useEffect(() => {
         getAllPokemon()
-    }, [])
+    }, [offset])
 
     // This UseEffect call all pokemon
     useEffect(() => {
         getGlobalPokemon()
     }, [])
+
+    // Btn Load More
+    const onClickLoadMore = () => {
+        setOffset(offset + 25)
+    }
 
     return(
         <PokemonContext.Provider 
@@ -82,7 +87,8 @@ export const PokemonProvider = ({ children }) => {
             onResetForm,
             allPokemon,
             globalPokemon,
-            getPokemonById
+            getPokemonById,
+            onClickLoadMore
         }}
         >
             {children}

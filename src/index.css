@@ -48,7 +48,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     padding: 40px 0;
 }
 
@@ -59,7 +58,6 @@ header{
 header form{
     display: flex;
     align-items: center;
-
     gap: 15px;
 }
 
@@ -67,7 +65,6 @@ header form{
     display: flex;
     align-items: center;
     gap: 10px;
-
     border: 1px solid #555;
     padding: 15px 20px;
     border-radius: 25px;
@@ -101,7 +98,8 @@ header form{
 }
 
 .btn-search:hover{
-    background-color: var(--color-primary-hover);
+    border: 2px solid var(--color-primary);
+    background-color: white;
     color: #000;
 }
 
@@ -139,7 +137,6 @@ header form{
 
 .card-img{
     background-color: #f2f2f2;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -389,4 +386,43 @@ Styles of Pokemon Single Page
     height: 30px;
     background-color: var(--color-primary);
     border-radius: 10px;
+}
+
+.container-loader{
+    display: flex;
+    justify-content: center;
+    margin: 200px 0;
+}
+
+/*btn-loader*/
+
+.container-btn-load-more{
+	display: flex;
+	justify-content: center;
+
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.btn-load-more{
+	border: none;
+	padding: 15px 25px;
+	font-family: inherit;
+	background-color: var(--color-primary);
+	color: #fff;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.btn-load-more:hover{
+    border: 2px solid var(--color-primary);
+	background-color: white;
+	color: #000;
+}
+
+.p-search{
+    margin-bottom: 20px;
+    color: var(--color-primary);
+    font-size: 1.5em;
+    font-style: italic;
 }
