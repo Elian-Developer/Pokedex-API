@@ -5,6 +5,9 @@ import { CardPokemon } from "./CardPokemon";
 export const PokemonList = () => {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4487c56eb699b914c16f5db2163fb0c9ad269972
     const {allPokemon} = useContext(PokemonContext)
 
     return (
@@ -12,6 +15,7 @@ export const PokemonList = () => {
             <div className="card-list-pokemon container">
                 {allPokemon.map(pokemon => (<CardPokemon pokemon={pokemon} key={pokemon.id} />))}
             </div>
+<<<<<<< HEAD
 =======
     const { allPokemon, loading } = useContext(PokemonContext)
 
@@ -27,6 +31,8 @@ export const PokemonList = () => {
                     </div>
                 )}
 >>>>>>> fca2f15 (Tercer commit)
+=======
+>>>>>>> 4487c56eb699b914c16f5db2163fb0c9ad269972
         </>
     )
 }

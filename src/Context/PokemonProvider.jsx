@@ -10,30 +10,41 @@ export const PokemonProvider = ({ children }) => {
 
     //Custom Hook for Search pokemon
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4487c56eb699b914c16f5db2163fb0c9ad269972
     const {valueSearch, onInputChange, onResetForm} = useForm({
         valueSearch: ''
     })
    
+<<<<<<< HEAD
 =======
     const { valueSearch, onInputChange, onResetForm } = useForm({
         valueSearch: ''
     })
 
 >>>>>>> fca2f15 (Tercer commit)
+=======
+>>>>>>> 4487c56eb699b914c16f5db2163fb0c9ad269972
     // State for the app
     const [loading, setLoading] = useState(true)
     const [active, setActive] = useState(false)
 
     // Call 100 Pokemon to API
 <<<<<<< HEAD
+<<<<<<< HEAD
     const getAllPokemon = async(limit = 100) => {
 =======
     const getAllPokemon = async (limit = 100) => {
 >>>>>>> fca2f15 (Tercer commit)
+=======
+    const getAllPokemon = async(limit = 100) => {
+>>>>>>> 4487c56eb699b914c16f5db2163fb0c9ad269972
         const baseURL = 'https://pokeapi.co/api/v2/';
 
         const res = await fetch(`${baseURL}pokemon?limit=${limit}&offset=${offset}`)
         const data = await res.json();
+<<<<<<< HEAD
 <<<<<<< HEAD
         
         const promises = data.results.map(async(pokemon) => {
@@ -41,6 +52,10 @@ export const PokemonProvider = ({ children }) => {
 
         const promises = data.results.map(async (pokemon) => {
 >>>>>>> fca2f15 (Tercer commit)
+=======
+        
+        const promises = data.results.map(async(pokemon) => {
+>>>>>>> 4487c56eb699b914c16f5db2163fb0c9ad269972
             const res = await fetch(pokemon.url)
             const data = await res.json()
             return data
@@ -54,14 +69,19 @@ export const PokemonProvider = ({ children }) => {
 
     // Call All Pokemon
 <<<<<<< HEAD
+<<<<<<< HEAD
     const getGlobalPokemon = async() => {
 =======
     const getGlobalPokemon = async () => {
 >>>>>>> fca2f15 (Tercer commit)
+=======
+    const getGlobalPokemon = async() => {
+>>>>>>> 4487c56eb699b914c16f5db2163fb0c9ad269972
         const baseURL = 'https://pokeapi.co/api/v2/';
 
         const res = await fetch(`${baseURL}pokemon?limit=100000&offset=0`)
         const data = await res.json();
+<<<<<<< HEAD
 <<<<<<< HEAD
         
         const promises = data.results.map(async(pokemon) => {
@@ -69,6 +89,10 @@ export const PokemonProvider = ({ children }) => {
 
         const promises = data.results.map(async (pokemon) => {
 >>>>>>> fca2f15 (Tercer commit)
+=======
+        
+        const promises = data.results.map(async(pokemon) => {
+>>>>>>> 4487c56eb699b914c16f5db2163fb0c9ad269972
             const res = await fetch(pokemon.url)
             const data = await res.json()
             return data
@@ -80,10 +104,14 @@ export const PokemonProvider = ({ children }) => {
         setLoading(false);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 
 >>>>>>> fca2f15 (Tercer commit)
+=======
+    
+>>>>>>> 4487c56eb699b914c16f5db2163fb0c9ad269972
     //This function call a pokemon by ID
     const getPokemonById = async (id) => {
         const baseURL = 'https://pokeapi.co/api/v2/';
@@ -92,10 +120,14 @@ export const PokemonProvider = ({ children }) => {
         const data = await res.json();
         return data;
 <<<<<<< HEAD
+<<<<<<< HEAD
     } 
 =======
     }
 >>>>>>> fca2f15 (Tercer commit)
+=======
+    } 
+>>>>>>> 4487c56eb699b914c16f5db2163fb0c9ad269972
 
     //This useEffect call first 100 pokemon function 
     useEffect(() => {
@@ -113,6 +145,9 @@ export const PokemonProvider = ({ children }) => {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4487c56eb699b914c16f5db2163fb0c9ad269972
     return(
         <PokemonContext.Provider 
         value={{
@@ -124,6 +159,7 @@ export const PokemonProvider = ({ children }) => {
             getPokemonById,
             onClickLoadMore
         }}
+<<<<<<< HEAD
 =======
     // Filter Function + State
     const [typeSelected, setTypeSelected] = useState({
@@ -189,6 +225,8 @@ export const PokemonProvider = ({ children }) => {
                 filteredPokemons
             }}
 >>>>>>> fca2f15 (Tercer commit)
+=======
+>>>>>>> 4487c56eb699b914c16f5db2163fb0c9ad269972
         >
             {children}
         </PokemonContext.Provider>

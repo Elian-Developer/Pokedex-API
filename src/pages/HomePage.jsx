@@ -5,19 +5,27 @@ import { PokemonContext } from '../Context/PokemonContext';
 export const HomePage = () => {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   const {onClickLoadMore} = useContext(PokemonContext)
 =======
   const {onClickLoadMore, active, setActive} = useContext(PokemonContext)
 >>>>>>> fca2f15 (Tercer commit)
+=======
+  const {onClickLoadMore} = useContext(PokemonContext)
+>>>>>>> 4487c56eb699b914c16f5db2163fb0c9ad269972
 
   return (
     <>
       <div className='container-filter container'>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <div className='icon-filter'>
 =======
         <div className='icon-filter' onClick={() => setActive(!active)}>
 >>>>>>> fca2f15 (Tercer commit)
+=======
+        <div className='icon-filter'>
+>>>>>>> 4487c56eb699b914c16f5db2163fb0c9ad269972
           <svg
             xmlns='http://www.w3.org/2000/svg'
             fill='none'
