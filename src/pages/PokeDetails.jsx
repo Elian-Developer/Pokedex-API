@@ -33,10 +33,14 @@ export const PokeDetails = () => {
               <span className='number-pokemon'>#{pokemon.id}</span>
               <div className='container-img-pokemon'>
                 <img
-                  src={pokemon.sprites.other.dream_world.front_default}
+                  src={
+                    pokemon.sprites.other.dream_world.front_default ||
+                    pokemon.sprites.front_default
+                    }
                   alt={`Pokemon ${pokemon?.name}`}
                 />
               </div>
+
 
               <div className='container-info-pokemon'>
                 <h1>{letterUpper(pokemon.name)}</h1>
@@ -60,8 +64,10 @@ export const PokeDetails = () => {
               </div>
             </div>
 
+              <div className='Stats'>
+                <h1>Base Stats</h1>
+              </div>
             <div className='container-stats'>
-              <h1>statistics</h1>
               <div className='stats'>
                 <div className='stat-group'>
                   <span>Hp</span>
