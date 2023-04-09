@@ -8,7 +8,7 @@ export const FilterBar = () => {
   return (
     <div className={`container-filters ${active ? 'active' : ''}`}>
       <div className='filter-by-type'>
-        <span>Type</span>
+        <span>Types</span>
 
         <div class='group-type'>
           <input type='checkbox'  name='grass' id='grass'  onChange={handleCheckbox}/>
