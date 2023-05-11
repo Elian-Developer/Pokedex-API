@@ -4,8 +4,8 @@
 
 - [Descripcion general](https://github.com/Elian-Developer/Pokedex-API/tree/master#descripción-general-)
 - [Demostraciones del proyecto](https://github.com/Elian-Developer/Pokedex-API/tree/master#demostraciones-del-proyecto-)
-- [Construido con](https://github.com/Elian-Developer/Pokedex-API/tree/master#construido-con-)
-- [Autor](https://github.com/Elian-Developer/Pokedex-API/tree/master#autor-)
+- [Construido con](https://github.com/Elian-Developer/Pokedex-API/tree/master#construido-con-%EF%B8%8F)
+- [Autor](https://github.com/Elian-Developer/Pokedex-API/tree/master#autor-%EF%B8%8F)
 
 ## *Descripción General* 📋
 
