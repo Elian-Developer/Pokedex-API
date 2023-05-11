@@ -2,10 +2,10 @@
 
 ## *Tabla de contenido* 📄
 
-- [Descripcion general](https://github.com/Elian-Developer/Pokedex/tree/master#descripción-general)
-- [Demostraciones del proyecto](https://github.com/Elian-Developer/Pokedex/tree/master#demostraciones-del-proyecto)
-- [Construido con](https://github.com/Elian-Developer/Pokedex/tree/master#construido-con)
-- [Autor](https://github.com/Elian-Developer/Pokedex/tree/master#autor)
+- [Descripcion general](https://github.com/Elian-Developer/Pokedex-API/tree/master#descripción-general-)
+- [Demostraciones del proyecto](https://github.com/Elian-Developer/Pokedex-API/tree/master#demostraciones-del-proyecto-)
+- [Construido con](https://github.com/Elian-Developer/Pokedex-API/tree/master#construido-con-)
+- [Autor](https://github.com/Elian-Developer/Pokedex-API/tree/master#autor-)
 
 ## *Descripción General* 📋
 
